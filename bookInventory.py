@@ -13,5 +13,10 @@ if freeShip == 'yes':
 else:
     freeShipmentN = False
 
-print(f'\nBook name: {bookName}\nBook author: {bookAuthor}'
-      f'\nID: {bookID}\nPrice: {bookPrice}\nFree ship? {freeShipmentN}')
+print(f'''
+Book name: {bookName}
+Book author: {bookAuthor}
+ID: {bookID}
+Price: {bookPrice}
+Free ship? {freeShipmentN}
+''')
