@@ -34,6 +34,9 @@ class Person:
     def show_detail(self):
         print(f'Persona: {self._name} {self._last_name} {self._age}')
 
+    def __del__(self):  # Add destructor method to explicitly delete an object
+        print(f'Deleting {self._name} {self._last_name}')
+
 
 if __name__ == '__main__':  # Only for local execution
     person1 = Person('John', 'Doe', 29)
