@@ -23,10 +23,10 @@ class GeometricFigure:
         print('Implementing set method in height')
         self._height = height
 
+    def __str__(self):
+        return f'[Length: {self.length}, Height: {self.height}]'
 
 
-
-
-
-
-
+if __name__ == '__main__':
+    square2 = GeometricFigure(3, 4)
+    print(square2)

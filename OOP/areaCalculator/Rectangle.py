@@ -2,9 +2,8 @@ from GeometricFigure import GeometricFigure
 from Color import Color
 
 
-class Square(GeometricFigure, Color):
+class Rectangle(GeometricFigure, Color):
     def __init__(self, length, height, color):
-        # super().__init__()
         GeometricFigure.__init__(self, length, height)
         Color.__init__(self, color)
 
@@ -15,5 +14,6 @@ class Square(GeometricFigure, Color):
         return f'{Color.__str__(self)} {GeometricFigure.__str__(self)}'
 
 
-squareX = Square(2, 3, 'Red')
-print(squareX)
+rectangleX = Rectangle(4, 6, 'Red')
+print(rectangleX)
+
