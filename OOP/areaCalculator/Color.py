@@ -4,7 +4,7 @@ class Color:
 
     @property
     def color(self):
-        print('Implementing get method in color')
+        # print('Implementing get method in color')
         return self._color
 
     @color.setter

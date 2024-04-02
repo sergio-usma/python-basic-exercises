@@ -15,5 +15,6 @@ class Square(GeometricFigure, Color):
         return f'{Color.__str__(self)} {GeometricFigure.__str__(self)}'
 
 
-squareX = Square(2, 3, 'Red')
-print(squareX)
+if __name__ == '__main__':
+    squareX = Square(2, 3, 'Red')
+    print(squareX)

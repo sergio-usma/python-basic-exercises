@@ -14,6 +14,7 @@ class Rectangle(GeometricFigure, Color):
         return f'{Color.__str__(self)} {GeometricFigure.__str__(self)}'
 
 
-rectangleX = Rectangle(4, 6, 'Red')
-print(rectangleX)
+if __name__ == '__main__':
+    rectangleX = Rectangle(4, 6, 'Red')
+    print(rectangleX)
 
